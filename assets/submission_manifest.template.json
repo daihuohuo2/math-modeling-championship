@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "team_id": null,
+  "generated_at": null,
+  "paper": {
+    "path": null,
+    "bytes": null,
+    "sha256": null
+  },
+  "support": {
+    "path": null,
+    "bytes": null,
+    "sha256": null
+  },
+  "files": [],
+  "artifact_bundle_sha256": null,
+  "official_limits": {
+    "paper_formats": [".pdf", ".docx"],
+    "support_formats": [".zip", ".rar"],
+    "max_bytes_each": 20971520,
+    "note": "以当届官方规则为准，这里只是默认值"
+  },
+  "human_reviewer": null
+}

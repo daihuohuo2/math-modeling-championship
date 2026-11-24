@@ -1,0 +1,158 @@
+{
+  "round": null,
+  "artifact_version": null,
+  "independence_attestation": null,
+  "notes": null,
+  "reviewers": [
+    {
+      "id": "E01",
+      "role": "当届规则与提交合规",
+      "independent_confirmed": null,
+      "score": null,
+      "evidence": [],
+      "findings": [],
+      "required_actions": [],
+      "blockers": []
+    },
+    {
+      "id": "E02",
+      "role": "题意理解与子问覆盖",
+      "independent_confirmed": null,
+      "score": null,
+      "evidence": [],
+      "findings": [],
+      "required_actions": [],
+      "blockers": []
+    },
+    {
+      "id": "E03",
+      "role": "数据来源与质量",
+      "independent_confirmed": null,
+      "score": null,
+      "evidence": [],
+      "findings": [],
+      "required_actions": [],
+      "blockers": []
+    },
+    {
+      "id": "E04",
+      "role": "实验单位与泄漏",
+      "independent_confirmed": null,
+      "score": null,
+      "evidence": [],
+      "findings": [],
+      "required_actions": [],
+      "blockers": []
+    },
+    {
+      "id": "E05",
+      "role": "统计推断",
+      "independent_confirmed": null,
+      "score": null,
+      "evidence": [],
+      "findings": [],
+      "required_actions": [],
+      "blockers": []
+    },
+    {
+      "id": "E06",
+      "role": "模型适切性",
+      "independent_confirmed": null,
+      "score": null,
+      "evidence": [],
+      "findings": [],
+      "required_actions": [],
+      "blockers": []
+    },
+    {
+      "id": "E07",
+      "role": "数学严谨性",
+      "independent_confirmed": null,
+      "score": null,
+      "evidence": [],
+      "findings": [],
+      "required_actions": [],
+      "blockers": []
+    },
+    {
+      "id": "E08",
+      "role": "算法与数值实现",
+      "independent_confirmed": null,
+      "score": null,
+      "evidence": [],
+      "findings": [],
+      "required_actions": [],
+      "blockers": []
+    },
+    {
+      "id": "E09",
+      "role": "验证与泛化",
+      "independent_confirmed": null,
+      "score": null,
+      "evidence": [],
+      "findings": [],
+      "required_actions": [],
+      "blockers": []
+    },
+    {
+      "id": "E10",
+      "role": "稳健性与敏感性",
+      "independent_confirmed": null,
+      "score": null,
+      "evidence": [],
+      "findings": [],
+      "required_actions": [],
+      "blockers": []
+    },
+    {
+      "id": "E11",
+      "role": "领域与工程现实性",
+      "independent_confirmed": null,
+      "score": null,
+      "evidence": [],
+      "findings": [],
+      "required_actions": [],
+      "blockers": []
+    },
+    {
+      "id": "E12",
+      "role": "创新与贡献",
+      "independent_confirmed": null,
+      "score": null,
+      "evidence": [],
+      "findings": [],
+      "required_actions": [],
+      "blockers": []
+    },
+    {
+      "id": "E13",
+      "role": "科研可视化",
+      "independent_confirmed": null,
+      "score": null,
+      "evidence": [],
+      "findings": [],
+      "required_actions": [],
+      "blockers": []
+    },
+    {
+      "id": "E14",
+      "role": "写作引用与格式",
+      "independent_confirmed": null,
+      "score": null,
+      "evidence": [],
+      "findings": [],
+      "required_actions": [],
+      "blockers": []
+    },
+    {
+      "id": "E15",
+      "role": "竞赛评委快速阅读",
+      "independent_confirmed": null,
+      "score": null,
+      "evidence": [],
+      "findings": [],
+      "required_actions": [],
+      "blockers": []
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+\documentclass[UTF8,12pt,a4paper]{ctexart}
+
+% CUMCM 2026 合规基线模板，逐条对齐官方《论文格式规范（2026年修订稿）》原文：
+%   * 电子版第一页必须为摘要专用页：承诺书、编号专用页不得出现在电子版论文中（第十条）
+%   * 摘要含标题和关键词，无需英文，原则上 ≤1 页；页码从摘要页起，页脚居中从 1 连续编号（第三条）
+%   * 正文从第四页（纸质口径）开始，不要目录，不超过 30 页（第四条）
+%   * 附录必须含支撑材料文件列表 + 全部完整可运行源程序；无程序/无支撑材料须在附录明确声明（第五条）
+%   * 页边距上下左右至少 2.5cm（第一条，本模板已设 2.5cm）
+%   * 任何地方不得出现参赛者身份、学校、赛区信息（第六条）
+%   * 摘要/正文/附录中所有引用必须列参考文献并在正文标注（第七条）
+%   * 字号、字体、行距、颜色官方不统一要求（第八条）
+%   * 电子版建议 PDF，单个文件 ≤20MB，不压缩，与纸质版内容一致（第十条）
+% 当届官方模板存在时以其为准复制替换本文件。
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+\newcommand{\keywords}[1]{\par\noindent\textbf{关键词：}#1}
+
+\title{LATEX_TEMPLATE_TITLE}
+\author{}   % 匿名：不得出现姓名、学校、地区等身份信息
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+LATEX_TEMPLATE_ABSTRACT
+\keywords{LATEX_TEMPLATE_KEYWORDS}
+\end{abstract}
+
+\section{问题重述与分析}
+LATEX_TEMPLATE_BODY
+
+\section{模型假设与符号说明}
+LATEX_TEMPLATE_BODY
+
+\section{模型建立、求解与验证}
+LATEX_TEMPLATE_BODY
+
+\section{灵敏度分析与稳健性检验}
+LATEX_TEMPLATE_BODY
+
+\section{模型评价与适用边界}
+LATEX_TEMPLATE_BODY
+
+\section*{AI 工具使用声明}
+% 2026 年新口径：须说明具体用途；不单独开页，紧随排版；参考文献中不再列 AI 条目。
+LATEX_TEMPLATE_AI_STATEMENT
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\appendix
+\section*{支撑材料文件清单}
+% 官方第五条：附录必须包含支撑材料文件列表；赛区建议置于附录第一页。
+% 确实没有支撑材料时改为注明“本论文没有支撑材料”。
+LATEX_TEMPLATE_SUPPORT_MANIFEST
+
+\section{程序与补充说明}
+% 官方第五条：附录必须包含建模所用全部完整、可运行的源程序代码。
+% 确实没有用到程序时改为注明“本论文没有用到程序”。
+LATEX_TEMPLATE_APPENDIX
+
+\end{document}

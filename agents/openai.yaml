@@ -1,0 +1,4 @@
+# OpenAI 兼容运行时的 Skill 元数据。行为权威始终是本目录的 SKILL.md。
+name: math-modeling-championship
+description: 数学建模竞赛端到端工作流：从选题审题、数据审计、建模求解、代码求解与复现、图表制作，到论文写作排版、支撑材料、AI 使用披露与 15 位专家复评闭环（平均分≥92 才放行）。
+instructions: 读取本 Skill 目录下的 SKILL.md 并严格遵循其启动协议、路由表、质量原则与最终门禁；参考文件位于 references/，工具位于 tools/，脚本位于 scripts/。
